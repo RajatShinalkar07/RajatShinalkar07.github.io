@@ -111,16 +111,6 @@ body {
     transition: all 0.3s;
 }
 
-.profile-img {
-    width: 160px;
-    height: 160px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 4px solid #ffffff;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
-    margin-bottom: 20px;
-}
-
 /* Hero */
 .hero {
     min-height: 100vh;
@@ -227,6 +217,16 @@ body {
 .hero-socials a:hover {
     color: var(--primary);
     transform: translateY(-3px);
+}
+
+.profile-img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #ffffff;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    margin-bottom: 20px;
 }
 
 /* Sections */
