@@ -1,1 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rajat Shinalkar | Linux & Network Engineer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">RS</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
 
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <p class="hero-greeting">Hello, I'm</p>
+            <h1 class="hero-name">Rajat Shinalkar</h1>
+            <h2 class="hero-title">Linux Administrator & Network Engineer</h2>
+            <p class="hero-description">
+                Passionate about Linux systems, network infrastructure, and cloud technologies.
+                Currently pursuing MCA with hands-on experience in RHEL, Cisco networking, and data analytics.
+            </p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                <a href="assets/Rajat_Shinalkar_Resume.pdf" class="btn btn-secondary" download>Download Resume</a>
+            </div>
+            <div class="hero-socials">
+                <a href="https://linkedin.com/in/YOUR_LINKEDIN" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/YOUR_USERNAME" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="mailto:rajatshinalkar07@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm an aspiring Linux Administrator and Network Engineer based in Pune, India,
+                        with a strong foundation in system administration, networking, and cloud technologies.
+                    </p>
+                    <p>
+                        My journey in IT began with a Bachelor's in Computer Science and continues with
+                        a Master's in Computer Applications. Through internships at Ceres Canopus and
+                        Sri Hari Packaging, I've gained practical experience in technical support,
+                        Linux administration, and data analytics.
+                    </p>
+                    <p>
+                        I hold training certifications in RHCSA, RHCE, CCNA, and AWS, and I'm continuously
+                        expanding my skills in automation, monitoring, and cloud infrastructure.
+                    </p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <h3>100+</h3>
+                        <p>Users Supported</p>
+                    </div>
+                    <div class="stat">
+                        <h3>5+</h3>
+                        <p>Certifications</p>
+                    </div>
+                    <div class="stat">
+                        <h3>2</h3>
+                        <p>Internships</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Dec 2025 – June 2026</span>
+                        <h3>Technical Support Intern</h3>
+                        <h4>Ceres Canopus Pvt Ltd | Pune, India</h4>
+                        <ul>
+                            <li>Provided L1/L2 technical support to 100+ internal users, troubleshooting hardware, software, and network issues with high first-call resolution rate.</li>
+                            <li>Managed user accounts and access permissions in Active Directory and LDAP, handling onboarding/offboarding requests.</li>
+                            <li>Diagnosed and resolved network issues including IP conflicts and DNS failures using ping, traceroute, and ifconfig.</li>
+                            <li>Assisted in OS installation (Windows/RHEL) and software deployment for 15+ new workstations.</li>
+                            <li>Documented recurring issues and created knowledge base articles, reducing average ticket handling time.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Apr 2025 – Oct 2025</span>
+                        <h3>Junior Data Analyst (Intern)</h3>
+                        <h4>Sri Hari Packaging Pvt Ltd | Pune, India</h4>
+                        <ul>
+                            <li>Extracted, cleaned, and transformed operational data from MySQL databases using complex SQL queries.</li>
+                            <li>Designed and published interactive Power BI dashboards visualizing KPIs including server uptime and network bandwidth.</li>
+                            <li>Automated weekly Excel reports using VLOOKUP, Pivot Tables, and Power Query, reducing report time from 4 hours to 30 minutes.</li>
+                            <li>Validated data integrity and presented monthly findings to the operations head.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-icon"><i class="fas fa-server"></i></div>
+                    <h3>Enterprise Linux Server Hardening</h3>
+                    <p class="project-subtitle">Lab Environment</p>
+                    <ul>
+                        <li>Deployed RHEL 9 with LVM partitioning (3 logical volumes) and configured secure Apache web server with SELinux in Enforcing mode.</li>
+                        <li>Implemented strict firewall rules restricting SSH access to authorized IPs only.</li>
+                        <li>Wrote advanced Bash scripts scheduled via cron to capture CPU, RAM, and Disk metrics every 5 minutes.</li>
+                        <li>Configured NFS, Samba, and DNS services with robust security policies across multiple VMs.</li>
+                    </ul>
+                    <div class="project-tags">
+                        <span>RHEL 9</span>
+                        <span>Bash</span>
+                        <span>SELinux</span>
+                        <span>NFS</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon"><i class="fas fa-network-wired"></i></div>
+                    <h3>Multi-Site Cisco Network Simulation</h3>
+                    <p class="project-subtitle">Lab Environment</p>
+                    <ul>
+                        <li>Designed complex multi-site network in Cisco Packet Tracer using OSPF (Area 0), VLAN segmentation, ACLs, NAT, and DHCP.</li>
+                        <li>Enabled SNMP polling to extract real-time interface metrics and stored time-series data in MySQL.</li>
+                        <li>Built interactive Power BI dashboard visualizing network health and bandwidth utilization trends.</li>
+                        <li>Reduced simulated Mean Time to Detection (MTTD) by 25%.</li>
+                    </ul>
+                    <div class="project-tags">
+                        <span>Cisco</span>
+                        <span>OSPF</span>
+                        <span>SNMP</span>
+                        <span>Power BI</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Skills & Certifications</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fab fa-linux"></i> Operating Systems</h3>
+                    <div class="skill-tags">
+                        <span>RHEL 9</span>
+                        <span>CentOS</span>
+                        <span>Ubuntu</span>
+                        <span>Windows Server</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-network-wired"></i> Networking</h3>
+                    <div class="skill-tags">
+                        <span>Cisco IOS</span>
+                        <span>OSPF</span>
+                        <span>EIGRP</span>
+                        <span>BGP</span>
+                        <span>VLANs</span>
+                        <span>ACLs</span>
+                        <span>NAT</span>
+                        <span>VPN</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-cogs"></i> Linux Administration</h3>
+                    <div class="skill-tags">
+                        <span>LVM</span>
+                        <span>NFS</span>
+                        <span>Samba</span>
+                        <span>Apache/Nginx</span>
+                        <span>SELinux</span>
+                        <span>Systemd</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Automation & Scripting</h3>
+                    <div class="skill-tags">
+                        <span>Python</span>
+                        <span>Bash</span>
+                        <span>YAML</span>
+                        <span>Ansible</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-chart-line"></i> Monitoring & Reporting</h3>
+                    <div class="skill-tags">
+                        <span>Nagios</span>
+                        <span>Zabbix</span>
+                        <span>Power BI</span>
+                        <span>MySQL</span>
+                        <span>Prometheus</span>
+                        <span>Grafana</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-cloud"></i> Cloud & Virtualization</h3>
+                    <div class="skill-tags">
+                        <span>AWS (EC2, VPC, S3)</span>
+                        <span>VMware</span>
+                    </div>
+                </div>
+            </div>
+            <div class="certifications">
+                <h3>Certifications</h3>
+                <div class="cert-grid">
+                    <div class="cert-card"><i class="fas fa-certificate"></i> RHCSA</div>
+                    <div class="cert-card"><i class="fas fa-certificate"></i> RHCE</div>
+                    <div class="cert-card"><i class="fas fa-certificate"></i> CCNA</div>
+                    <div class="cert-card"><i class="fas fa-certificate"></i> AWS</div>
+                    <div class="cert-card"><i class="fas fa-certificate"></i> Python (Core)</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-grid">
+                <div class="edu-card">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h3>Master of Computer Applications (MCA)</h3>
+                    <p>2024 – 2026</p>
+                </div>
+                <div class="edu-card">
+                    <i class="fas fa-university"></i>
+                    <h3>Bachelor of Computer Science (BCS)</h3>
+                    <p>2021 – 2024</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="contact-intro">
+                I'm open to opportunities in Linux administration, network engineering, and cloud infrastructure.
+                Feel free to reach out!
+            </p>
+            <div class="contact-grid">
+                <a href="mailto:rajatshinalkar07@gmail.com" class="contact-card">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p>rajatshinalkar07@gmail.com</p>
+                </a>
+                <a href="tel:+917887887518" class="contact-card">
+                    <i class="fas fa-phone"></i>
+                    <h3>Phone</h3>
+                    <p>+91 7887887518</p>
+                </a>
+                <a href="https://linkedin.com/in/YOUR_LINKEDIN" target="_blank" class="contact-card">
+                    <i class="fab fa-linkedin"></i>
+                    <h3>LinkedIn</h3>
+                    <p>Connect with me</p>
+                </a>
+                <div class="contact-card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Location</h3>
+                    <p>Pune, India</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2026 Rajat Shinalkar. Built with ❤️ and hosted on GitHub Pages.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
